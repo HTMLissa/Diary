@@ -1,0 +1,57 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: #81b29a;
+  margin-top: 20px;
+}
+
+#date {
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 2px solid #e07a5f;
+}
+
+#entry {
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 2px solid #e07a5f;
+}
+
+#submit-entry {
+  background-color: #e07a5f;
+  color: white;
+  -webkit-transition: .6s all ease-in-out;
+  transition: .6s all ease-in-out;
+}
+
+#submit-entry:hover {
+  background-color: #81b29a;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #81b29a;
+}
+
+li {
+  list-style-type: none;
+  width: 80%;
+  text-align: justify;
+  margin: 10px auto;
+}
+/*# sourceMappingURL=diary.css.map */
